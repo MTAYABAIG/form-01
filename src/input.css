@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btnn:hover{
+    border: 2px solid blue;
+    /* @apply focus:outline-none focus:shadow-outline focus:border-blue-300; */
+    /* @apply outline-none hover:shadow-outline hover:border-blue-300  
+} */
+.btnn:hover .btn{
+    border: 1px solid blue;
+    @apply text-black;
+
+}
+.btn{
+    @apply rounded-md;
+    @apply required;
+}
